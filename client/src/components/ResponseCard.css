@@ -1,0 +1,71 @@
+.response-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.section {
+    padding: 0 1rem;
+}
+
+.acknowledgment p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin: 0;
+}
+
+.verse-card {
+    margin: 1rem 0;
+    padding: 2rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.verse-text {
+    font-size: 1.35rem;
+    line-height: 1.6;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-family: 'Georgia', serif;
+    /* Serif for the verse text */
+}
+
+.verse-source {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.reflection p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+.reset-link {
+    background: none;
+    color: var(--text-secondary);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+}
+
+.reset-link:hover {
+    color: var(--text-primary);
+    opacity: 1;
+}
+
+.footer-disclaimer {
+    margin-top: 3rem;
+    font-size: 0.75rem;
+    color: #bdc3c7;
+}
